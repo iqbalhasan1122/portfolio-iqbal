@@ -1,0 +1,5 @@
+{
+  "asset": "/iqbal-portrait-static.png",
+  "method": "Built-in image generation, identity-preserving edit of supplied hero.webp",
+  "prompt": "Preserve the exact recognizable face, hair and skin tone. Natural front-facing editorial studio portrait, charcoal crew-neck shirt, soft neutral light and subtle green rim light. Full head and shoulders, transparent background, no neon outline, props, text or watermark. Static portfolio hero photograph."
+}

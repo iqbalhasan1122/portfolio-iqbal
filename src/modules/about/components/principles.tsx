@@ -1,0 +1,6 @@
+import { Users, Layers3, MessageSquare, FileCheck2 } from "lucide-react";
+import { Heading } from "@/shared/components/heading";
+import { Section } from "@/shared/components/section";
+import { Tag } from "@/shared/components/tag";
+const principles=[{icon:Users,title:"Understand the people",text:"Start with the user’s task, the business context and the constraints that shape a useful solution."},{icon:Layers3,title:"Make it consistent",text:"Use a shared system of type, colour, spacing and components so every screen feels connected."},{icon:MessageSquare,title:"Work in the open",text:"Share the reasoning, invite useful feedback and make decisions together at clear checkpoints."},{icon:FileCheck2,title:"Care about the handoff",text:"Deliver organised files, responsive behaviours and documented states your team can build from."}];
+export function Principles(){return <Section pal="dark" aria-labelledby="pn2"><Tag>My approach</Tag><Heading id="pn2" lines={["The principles","behind the pixels"]}/><div className="principles-grid">{principles.map((p,i)=><article data-reveal="" key={p.title}><span className="principle-number">0{i+1}</span><p.icon size={28}/><h3>{p.title}</h3><p>{p.text}</p></article>)}</div></Section>}
