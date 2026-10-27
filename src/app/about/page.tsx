@@ -12,6 +12,8 @@ export const metadata: Metadata = { title: "About" };
 export default function AboutPage() {
   return (
     <>
+
+    
       <PageHead tag="About me" lines={["Designing with", "purpose"]} lead="I’m Iqbal Hasan, a UI/UX designer with 2.5 years of experience and more than 150 completed projects across websites, mobile apps and digital products." />
       <AboutStory />
       <Section pal="light" aria-label="Numbers">
